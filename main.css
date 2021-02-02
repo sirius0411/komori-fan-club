@@ -260,7 +260,7 @@ body {
     position: absolute;
     height: 100%;
     margin-top: auto;
-    margin-left: 15vw;
+    margin-left: 10vw;
     -webkit-user-drag: none;
     user-drag: none;
     -webkit-user-select: none;
@@ -329,6 +329,7 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    font-family: 'Microsoft YaHei',Roboto, "Noto Sans Japanese", 游ゴシック体, YuGothic, "YuGothic M", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 
 .agreement .header {
@@ -378,6 +379,7 @@ body {
 .agreement .action a {
     text-decoration: none;
     margin: 5vw;
+    cursor: pointer;
 }
 
 .agreement .action a:visited {
@@ -389,7 +391,8 @@ body {
     position: absolute;
     bottom: 10px;
     left: 10px;
-    color: #444041;
+    color: #fa5959;
+    opacity: 0.8;
     font-size: 16px;
 }
 
@@ -400,4 +403,38 @@ body {
 
 .copyrights a {
     text-decoration: none;
+}
+
+.copyrights a:link {
+    color: #fa5959;
+}
+
+.copyrights a:visited {
+    color: #fa5959;
+}
+
+.right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: calc(95vh + 10vw);
+    margin-right: 2vw;
+    margin-top: calc(50px + 2vh);
+    margin-bottom: 128px;
+    border-radius: 10px;
+    background-color: rgba(255, 157, 157, 0.3);
+    color: #fa5959;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Microsoft YaHei',Roboto, "Noto Sans Japanese", 游ゴシック体, YuGothic, "YuGothic M", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.avatar {
+    border-radius: 50%;
 }
